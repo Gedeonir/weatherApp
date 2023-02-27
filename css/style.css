@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+.container{
+min-height: 100vh;
+width: 100%;
+overflow-y: hidden;
+
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.blogs{
+    background-image:linear-gradient(0deg, rgba(245, 235, 241, 0.1), rgba(193,243,254,1)), url('../img/giphy.gif');
+    width: 600px;
+    margin: auto;
+    padding: 5px;
+    display: block;
+    min-height: 100vh;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 5px;
+    background-size: cover;
+    background-position: center;
+}
+
+.blog{
+    margin-top: 12px;
+    padding: 15px;
+    border-radius: 20px;
+    min-height: 100px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 5px;
+}
+.blog-title{
+    font-size: 20px;
+    color: darkolivegreen;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+.blog-body{
+    color: darkolivegreen;
+    font-size: 18px;
+    word-wrap: break-word;
+
+}
+.empty{
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    color: darkolivegreen;
+
+}
+
+.addNewBlog{
+    background: darkolivegreen;;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 5px;
+    padding: 5px;
+}
+
+.Add{
+    color: aliceblue;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+
+}
+
+.createForm{
+    padding: 5px;
+    display: block;
+}
+
+.input-group{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: darkolivegreen;;
+    margin-top: 10px;
+
+}
+.input-group input{
+    padding: 15px;
+    outline: none;
+    width: 100%;
+    cursor: pointer;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    border: none;
+}
+.input-group button{
+    background-color: darkolivegreen;
+    outline: none;
+    padding: 10px;
+    border: none;
+    color: aliceblue;
+    font-weight: 700;
+    cursor: pointer;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.weather-data{
+    padding: 0 10px;
+}
+
+.weather-data .location{
+    color: darkolivegreen;
+    font-weight: 700;
+    text-align: center;
+}
+
+.weather-data .locationResolved{
+    color: darkolivegreen;
+    text-align: center;
+}
+
+.time{
+    display: flex;
+    justify-content: space-around;
+    color: darkolivegreen;
+    font-weight: 700;
+}
+
+.condition{
+    display: flex;
+}
+.condition img{
+    width: 300px;
+}
+
+.temperature {
+    padding-top: 30px;
+}
+
+.temperature .temp{
+    font-size: 3rem;
+    color: darkolivegreen;
+    font-weight: 700;
+}
+
+.condition2{
+    font-size: 1.5rem;
+    color: darkolivegreen;
+}
+.sunConditions{
+    display: flex;
+    justify-content: space-between;
+    color: darkolivegreen;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.loading{
+    width: 100%;
+    font-size: 1.5rem;
+    color: darkolivegreen;
+    font-weight: 700;
+    text-align: center;
+    margin: auto;
+    height: 200px;
+    background-image: url('../img/loading.gif');
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.days{
+    display: grid;
+    grid-template-columns: 80px 80px 80px 80px 80px;
+    grid-gap: 1.5rem;
+    width: 85%;
+    margin: auto;
+    padding: 12px;
+}
+
+.conditionDaily{
+    background-color: aliceblue;
+    width: 80px;
+    border-radius: 10px;
+    height: 100px;
+    padding: 10px;
+    text-align: center;
+}
+
+.conditionDaily img{
+    width: 50px;
+    margin: auto;
+}
+
+.conditionDaily .temp{
+    font-size: 1.1rem;
+    color: darkolivegreen;
+
+}
+
+.conditionDaily .day{
+    font-size: 0.9rem;
+}
+
+.conditionDaily .img{
+    width: 60px;
+    margin: auto;
+    height: 40px;
+}
